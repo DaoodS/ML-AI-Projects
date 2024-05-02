@@ -1,0 +1,14 @@
+name: recom-sys.env
+channels: 
+  - conda-forge
+dependencies:
+  - python=3.7.9
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - jupyter
+  - scikit-learn
+  - scipy
+  - pip
+  - keras
