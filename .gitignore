@@ -2,5 +2,5 @@
 **/Details/dataset/
 **/submission.csv
 **/tut-notebooks/
-**/Model/
 **__pycache__
+**Model
