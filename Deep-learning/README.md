@@ -1,7 +1,6 @@
-﻿## Machine_learning_Projects
+﻿## Deep Learning
 
-These are my projects related to various neural network concepts and implementations.
-
+These are my projects related to various deep learning concepts and implementations.
 
 ### Project 1: Artificial Neural Network
 
