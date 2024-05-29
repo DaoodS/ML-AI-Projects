@@ -2,21 +2,22 @@ from gym import spaces
 import numpy as np
 
 
-m=50    	#max capacity of warehouse
-K=3      	#constant part of order cost (K in document), can be cost of fuel
-c=4      	#variable part of order cost (c(a_t) in document)
-h=0.0025    #holding cost 
-p=4.5      	#selling price of product is such that PROFIT = 12.5%
-R=K		 	#return cost = K because cost of fuel is same for to and fro journeys
-lamda_mon=16    #lambda for poisson distribution
-lamda_tue=31
-lamda_wed=15
-lamda_thu=32
-lamda_fri=30
-lamda_sat=8
-lamda_sun=42
+m = 50    	# max capacity of warehouse
+K = 3      	# constant part of order cost (K in document), can be cost of fuel
+c = 4      	# variable part of order cost (c(a_t) in document)
+h = 0.0025    # holding cost 
+p = 4.5      	# selling price of product is such that PROFIT = 12.5%
+R = K		 	# return cost = K because cost of fuel is same for to and fro journeys
 
-day_mapping = {0:'mon',1:'tue',2:'wed',3:'thu',4:'fri',5:'sat',6:'sun'}
+lamda_mon = 16    # lambda for poisson distribution
+lamda_tue = 31
+lamda_wed = 15
+lamda_thu = 32
+lamda_fri = 30
+lamda_sat = 8
+lamda_sun = 42
+day_mapping = {0:'mon', 1:'tue', 2:'wed', 3:'thu', 4:'fri', 5:'sat', 6:'sun'}
+
 
 class InventoryEnv():
 
