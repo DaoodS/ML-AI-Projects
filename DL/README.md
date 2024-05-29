@@ -1,23 +1,12 @@
-﻿## ML-AI-Projects
+﻿## Machine_learning_Projects
 
-These are my Machine learning projects starting from the basics and moving further on to advanced level.
+These are my projects related to various neural network concepts and implementations.
 
-### EDA-Feature-Metrics
 
-• All projects from Kaggle competitions and hands-on learning. 
+### Project 1: Artificial Neural Network
 
-### ML
+• A custom aritificial neural network using numpy
 
-• Predict price of the car
+### Project 2: Gesture Recognition
 
-### NLP
-
-• Churn prediction model for telecom sector
-
-### NN
-
-• Regression model for house price prediction
-
-### RecSys
-
-• HMM based POS Tagging
+• CNN+RNN based gestrure recognition model to help users control the television without using a remote
