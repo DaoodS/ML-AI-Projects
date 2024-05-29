@@ -1,8 +1,8 @@
-**/.ipynb_checkpoints
-**/Details/dataset/
-**/submission.csv
-**/tut-notebooks/
-**/Model/
-**__pycache__
-**Model
-**practice
+*/.ipynb_checkpoints
+*/Details/dataset/
+*dataset/
+*/submission.csv
+*/tut-notebooks/
+*__pycache__
+*Model
+*practice
